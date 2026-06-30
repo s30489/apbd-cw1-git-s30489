@@ -1,3 +1,4 @@
-"" 
-"Statistics console app for APBD CW1." 
-"Includes min/max/average helpers." 
+## Pytania
+1. Fast-forward zachodzi, gdy gałąź docelowa (main) nie ma nowych commitów od momentu odbicia gałęzi – Git tylko przesuwa wskaźnik. Merge commit powstaje, gdy obie gałęzie mają własne nowe commity (historia się rozeszła).
+2. Merge zachowuje obie historie i tworzy commit łączący – widać rozgałęzienie. Rebase przenosi commity gałęzi na czubek main, dając liniową, czystszą historię, ale zmienia hashe commitów.
+3. Konflikt powstał na tej samej linii nagłówka w Program.cs. Rozwiązałem go ręcznie, usuwając markery i łącząc obie nazwy w jeden działający komunikat, po czym zatwierdziłem commitem.
