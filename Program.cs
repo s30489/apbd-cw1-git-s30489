@@ -1,4 +1,4 @@
-﻿Console.WriteLine("=== Statistics App ===");
+﻿Console.WriteLine("### STATISTICS TOOL ###");
 
 int[] numbers = { 4, 8, 15, 16, 23, 42 };
 
