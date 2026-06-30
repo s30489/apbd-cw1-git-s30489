@@ -8,4 +8,9 @@
     }
     
     public static int Count(int[] values) => values.Length;
+    
+    public static double CalculateAverage(int[] values)
+    {
+        return (double)Sum(values) / values.Length;
+    }
 }
