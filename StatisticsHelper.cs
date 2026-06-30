@@ -23,6 +23,8 @@
     
     public static int CalculateMin(int[] values)
     {
-        return values[0];
+        int min = values[0];
+        foreach (var v in values) if (v < min) min = v;
+        return min;
     }
 }
