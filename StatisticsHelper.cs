@@ -21,6 +21,7 @@
         return max;
     }
     
+    // Returns the smallest value
     public static int CalculateMin(int[] values)
     {
         int min = values[0];
