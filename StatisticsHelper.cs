@@ -13,4 +13,11 @@
     {
         return (double)Sum(values) / values.Length;
     }
+    
+    public static int CalculateMax(int[] values)
+    {
+        int max = values[0];
+        foreach (var v in values) if (v > max) max = v;
+        return max;
+    }
 }
