@@ -20,4 +20,9 @@
         foreach (var v in values) if (v > max) max = v;
         return max;
     }
+    
+    public static int CalculateMin(int[] values)
+    {
+        return values[0];
+    }
 }
