@@ -6,4 +6,6 @@
         foreach (var v in values) sum += v;
         return sum;
     }
+    
+    public static int Count(int[] values) => values.Length;
 }
